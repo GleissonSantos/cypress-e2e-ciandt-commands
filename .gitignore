@@ -1,0 +1,11 @@
+# Cypress
+cypress/screenshots/
+cypress/downloads/
+cypress/fixtures/downloads/
+
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+
