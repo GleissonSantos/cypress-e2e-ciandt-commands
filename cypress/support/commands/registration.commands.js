@@ -1,4 +1,4 @@
-// Custom command to perform a successful administrator login
+
 Cypress.Commands.add('sucessfulAdministratorRegister', (admName, admEmail, admPassword) => {
     cy.get('input[data-testid="nome"]').type(admName)
     cy.get('input[data-testid="email"]').type(admEmail)
@@ -8,7 +8,7 @@ Cypress.Commands.add('sucessfulAdministratorRegister', (admName, admEmail, admPa
     cy.get('.alert-link').should('have.text', 'Cadastro realizado com sucesso')
 })
 
-// Custom command to perform a successful login
+
 Cypress.Commands.add('sucessfulRegularCustomerRegister', (name, email, password) => {
     cy.get('input[data-testid="nome"]').type(name)
     cy.get('input[data-testid="email"]').type(email)
@@ -17,7 +17,7 @@ Cypress.Commands.add('sucessfulRegularCustomerRegister', (name, email, password)
     cy.get('.alert-link').should('have.text', 'Cadastro realizado com sucesso')
 })
 
-// Command to register a new user without a sucess validation
+
 Cypress.Commands.add('tryingInsucessRegistration', (name, email, password, isAdmin = false) => {
     if (name) cy.get('input[data-testid="nome"]').type(name);
     if (email) cy.get('input[data-testid="email"]').type(email);

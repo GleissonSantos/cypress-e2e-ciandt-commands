@@ -10,7 +10,6 @@ describe('Login at Serverest', () => {
 
     // Test cases
 
-    // 
     it('Login with invalid email', () => {
         const invalidEmail = 'invalidemail@teste';
         const password = faker.internet.password(4);

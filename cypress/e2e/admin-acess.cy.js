@@ -5,7 +5,6 @@ describe('Admin access', () => {
     
     // Test cases       
 
-    // Validate login with admin user
     it('Validate admin login functionality', () => {
 
         const adminData = { name: faker.person.fullName(), email: faker.internet.email(), password: faker.internet.password(4) };
