@@ -1,8 +1,8 @@
-# 🚀 Cypress E2E Testing - CI&T Command### 🛍️ **E-commerce (Regular Users)**
+# 🚀 Cypress E2E Testing - Using Commands
 - Search for existing and non-existing products
 - Add products to cart
 - Remove products from cart
-- Empty cart validationject
+- Empty cart validation
 
 [![Cypress Tests](https://img.shields.io/badge/cypress-tests-brightgreen)](https://cypress.io)
 [![CI/CD Pipeline](https://github.com/GleissonSantos/cypress-e2e-ciandt-commands/actions/workflows/pipeline-actions.yml/badge.svg)](https://github.com/GleissonSantos/cypress-e2e-ciandt-commands/actions/workflows/pipeline-actions.yml)
